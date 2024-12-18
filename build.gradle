@@ -6,10 +6,6 @@ plugins {
 launch4j {
     outfile = 'TestMain.exe' // Имя выходного файла .exe
     mainClassName = 'SwingDemo' // Полное имя класса с методом main
-    // Дополнительные настройки (по желанию)
-     //bundledJrePath = "C:\\Program Files\\Java\\jre1.8.0_431" // Путь к встроенной JRE (если нужно)
-     //bundledJre64Bit = true // Использовать 64-битную JRE
-     //jreMinVersion = "1.8.0" // Минимальная версия JRE
 }
 
 repositories {
