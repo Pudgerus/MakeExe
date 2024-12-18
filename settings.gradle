@@ -1,8 +1,0 @@
-plugins {
-    id 'edu.sc.seis.launch4j' version '3.0.6'
-}
-
-launch4j {
-    mainClassName = 'com.example.myapp.Start'
-    icon = "${projectDir}/icons/myApp.ico"
-}
